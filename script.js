@@ -1,10 +1,10 @@
 function updateCountdown() {
-    const targetDate = new Date('2024-02-10T00:00:00');
+    const targetDate = new Date('2025-01-01T00:00:00');
     const now = new Date();
     const difference = targetDate - now;
 
     if (difference <= 0) {
-        document.getElementById('countdown').textContent = "The time has arrived!";
+        document.getElementById('countdown').textContent = "O tempo chegou!!";
         clearInterval(interval);
         return;
     }
